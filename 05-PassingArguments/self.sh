@@ -11,3 +11,7 @@ echo "storing them in a array"
 lol=("$@")
 
 echo "Printed ${lol[0]},${lol[1]},${lol[2]}"
+echo $@ # can also print with this
+# getting to know the number of arguments being passed
+
+echo $#
