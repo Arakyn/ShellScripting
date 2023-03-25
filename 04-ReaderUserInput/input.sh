@@ -14,7 +14,7 @@ read -p 'username : ' user_var # using P allows to add something before reading 
 read -sp 'password :' pass_var
 echo
 echo "Username is : " $user_var
-# echo "password is :" $pass_var
+echo "password is :" $pass_var
 
 
 # Adding multiple things in array
